@@ -1,0 +1,35 @@
+.item-actividad {
+        width: 600px;
+        height: 100px;
+        padding: 10px;
+        margin: 5px;
+        background-color: #B78494;
+        color: white;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+.imgStyle{
+    width: 60px;;
+    height:'auto';
+    object-fit: "cover";
+  }
+  .item-actividad:hover {
+    background-color: #bb8fce ;
+  }
+  
+  .img-container {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-container p {
+    margin: 0;
+  }
